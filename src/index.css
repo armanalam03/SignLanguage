@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .camFilter{
+  position: absolute;
+  right: 0;
+  z-index: 15;
+  width: 1077px;
+  height: 808px;
+  background-color: rgb(69, 69, 69);
+  opacity: 0.4;
+
+} */
+
+
+.textContainer{
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  font-size: 100px;
+  font-weight: 600;
+  color: white;
+}
